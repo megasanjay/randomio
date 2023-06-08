@@ -1,0 +1,30 @@
+{
+  "name": "api-random",
+  "version": "0.0.1",
+  "description": "API for random stuff",
+  "scripts": {
+    "dev-watch": "tsc --watch --preserveWatchOutput --pretty",
+    "dev-server": "cross-env NODE_ENV=development nodemon",
+    "dev": "npm-run-all --parallel dev-watch dev-server",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "build": "rimraf dist && tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Sanjay Soundarajan <contact@sanjaysoundarajan.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "concurrently": "^8.1.0",
+    "cross-env": "^7.0.3",
+    "fastify-tsconfig": "^1.0.1",
+    "nodemon": "^2.0.22",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  }
+}
