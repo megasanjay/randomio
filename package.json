@@ -8,8 +8,8 @@
     "dev": "npm-run-all --parallel dev-watch dev-server",
     "format": "prettier --write \"src/**/*.ts\"",
     "build": "rimraf dist && tsc",
-    "start:dev": "node dist/index.js",
-    "start:prod": "pwd && ls -a && node index.js"
+    "start": "node dist/index.js",
+    "start:prod": "node dist/index.js"
   },
   "author": "Sanjay Soundarajan <contact@sanjaysoundarajan.dev>",
   "license": "MIT",
