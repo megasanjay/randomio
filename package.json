@@ -9,7 +9,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "build": "rimraf dist && tsc",
     "start:dev": "node dist/index.js",
-    "start:prod": "ls -a && node index.js"
+    "start:prod": "pwd && ls -a && node index.js"
   },
   "author": "Sanjay Soundarajan <contact@sanjaysoundarajan.dev>",
   "license": "MIT",
