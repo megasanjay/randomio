@@ -1,17 +1,8 @@
-import fastify from "fastify";
-import router from "./router";
-
-const server = fastify({
-  // Logger only for production
-  logger: !!(process.env.NODE_ENV !== "development"),
-});
-
-// Middleware: Router
-server.register(router);
+import app from "./app";
 
 const FASTIFY_PORT = Number(process.env.FASTIFY_PORT) || 3000;
 
-server.listen({ port: FASTIFY_PORT });
+app.listen({ port: FASTIFY_PORT });
 
 console.log(`🚀  Fastify server running on port ${FASTIFY_PORT}`);
 console.log(`Route index: /`);
