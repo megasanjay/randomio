@@ -50,10 +50,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@sinclair/typebox@^0.28.14":
-  version "0.28.14"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.28.14.tgz#31653c1ecb93af1eec673c771971620060dfde40"
-  integrity sha512-aB3ddagwMFz2cSLg0/gUt7yaUHJUKnT+rEHGdb/srtEFILB0zdL7a2mcbA7kskOCFHicAOV1POeeZdwoevFgAQ==
+"@sinclair/typebox@^0.28.16":
+  version "0.28.16"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.28.16.tgz#4416f4a88c12eb9ab53f8473c0053f368a4cb328"
+  integrity sha512-0MqOedIj2ZjvCtUwibzubKdVzIDihAdCAEtoMAEDzuRpdlRtw/MlXbkNZaM+cjU8h0ApR0uctmakKgSY9kQqLg==
 
 "@types/node@latest":
   version "20.2.4"
