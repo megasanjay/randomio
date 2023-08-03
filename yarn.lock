@@ -40,10 +40,10 @@
   dependencies:
     fast-json-stringify "^5.7.0"
 
-"@fastify/type-provider-typebox@^3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@fastify/type-provider-typebox/-/type-provider-typebox-3.2.0.tgz#9fe7e7bfec98160d931acf315976e96e076eac99"
-  integrity sha512-Ec+dHVfb9wovQ/jclkDbzTshHTtSsDmTGhls6S/TM3QIcx7682Jq8/W0kHXW3ylBUBEtcel87B+PuwH17TRDAw==
+"@fastify/type-provider-typebox@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@fastify/type-provider-typebox/-/type-provider-typebox-3.4.0.tgz#9a5ce55fed9a5d4bb89b9860c215c3fc881f6496"
+  integrity sha512-wy1ihi8WtH00sW4YlaA0lZ0nIz/mVVh4stQQ68AtNYTgXI9LPKWylNYDTP2lcXO9az9w902CvqRc8BBwOUTo7w==
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
