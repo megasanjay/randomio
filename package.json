@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@faker-js/faker": "^8.0.2",
-    "@fastify/type-provider-typebox": "^3.2.0",
+    "@fastify/type-provider-typebox": "^3.5.0",
     "@sinclair/typebox": "^0.28.14",
     "fastify": "^4.17.0",
     "fluent-json-schema": "^4.1.0"
